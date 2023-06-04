@@ -1,0 +1,1014 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* menubar  */
+.menu {
+    box-sizing: border-box;
+    width: 20.84vw;
+    height: 103.2vw;
+    background: #051024;
+    z-index: 4000;
+}
+
+/* logo size width */
+.logo-container {
+    height: 8.27vw;
+    position: relative;
+}
+
+.logo-container img {
+    width: 10.14vw;
+    height: 3.37vw;
+    margin-left: 2.78vw;
+    margin-top: 1.94vw;
+    position: absolute;
+
+}
+
+/* firs ul */
+
+.first-ul li,
+.second-ul li,
+.third-ul li {
+    list-style: none;
+    padding-left: 2.92vw;
+    height: 3.47vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.3vw;
+
+
+}
+
+.first-ul li:first-child {
+    background: rgba(81, 200, 248, 0.09);
+    border-left: 0.104vw solid #1DBFFF;
+
+}
+
+
+/*sizing of  a of li  */
+.first-ul li a,
+.second-ul li a,
+.third-ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+
+}
+
+/* this is the h6 tag in the ul=>my settings */
+h6 {
+    font-weight: 500;
+    font-size: 1.11vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+
+}
+
+.ul-heading {
+    position: relative;
+    left: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+.second-ul,
+.third-ul {
+    margin-top: 0.8vw;
+}
+
+
+
+
+
+
+
+
+/* manubar icon sizing========================================================================= */
+.dashboard img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+.analyze img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+
+}
+
+.monitor img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.software-request img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.Contact img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.faq img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.my-profile img {
+    width: 1.67vw;
+    height: 1.67vw;
+
+    margin-right: 1.04vw;
+}
+
+/* .my-profile {
+    position: relative;
+    right: 0.8vw;
+} */
+
+.fa img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.fa {
+    font-family: 'Poppins', sans-serif;
+}
+
+.notification img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+.users img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+/* menubar complete here========================================= */
+
+
+
+
+
+/* right side al stuffs activities from here================== */
+.right-side {
+    height: 85.91vw;
+
+
+}
+
+nav {
+    width: 78vw;
+    height: 5.35vw;
+    box-shadow: 0px 0.28vw 0.69vw rgba(0, 0, 0, 0.05);
+    padding: 0vw 2.22vw;
+
+}
+
+nav p {
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+}
+
+nav ul {
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.email {
+    width: 1.39vw;
+    height: 1.39vw;
+
+    position: absolute;
+    left: -7.2vw;
+    top: -0.3vw;
+}
+
+.notification-number {
+    background: #00B0FC;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    font-weight: 500;
+    font-size: 0.83vw;
+    position: absolute;
+    left: -6.3vw;
+    top: -1.1vw;
+    width: 1.25vw;
+    height: 1.25vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li.dropdown {
+    position: relative;
+
+}
+
+/* toggle button in nav */
+.dropdown-toggle-nav {
+    font-weight: 400;
+    font-size: 1.21vw;
+    line-height: 1.67vw;
+    position: absolute;
+    left: -3.2vw;
+    top: -0.7vw;
+    border: none;
+}
+
+
+/*body part of  right side */
+
+
+/* banner section==================== */
+
+.dropdown-toggle-banner {
+    width: 13.62vw;
+    height: 3.20vw;
+    left: 84.26vw;
+    top: 7.99vw;
+    border: 0.07vw solid rgba(14, 14, 14, 0.2);
+    border-radius: 6.94vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.46vw;
+    overflow: hidden;
+}
+
+
+
+/* report-monitoring */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* analyze================================================================================================ */
+.body {
+    padding: 2.22vw;
+    /* (32 / 1439) * 100 */
+    background-color: rgb(238, 238, 238);
+}
+
+
+.inner-body {
+    width: 74.8vw;
+    /* (1077 / 1439) * 100 */
+    height: 93.4vw;
+    /* (1346 / 1439) * 100 */
+    box-shadow: 0px 0px 0.486vw 0.139vw rgba(0, 0, 0, 0.02);
+    /* (0 / 1439) * 100, (0 / 1439) * 100, (7 / 1439) * 100, (2 / 1439) * 100 */
+    border-radius: 0.694vw;
+    /* (10 / 1439) * 100 */
+}
+
+.search-engine-logo {
+    width: 13.063vw;
+    /* (188.17 / 1439) * 100 */
+    height: 4.309vw;
+    /* (62.09 / 1439) * 100 */
+    margin-top: 2.083vw;
+    /* (30 / 1439) * 100 */
+
+
+}
+
+.search-engine {
+    position: relative;
+}
+
+
+.search-list {
+    position: absolute;
+    top: 12.3vw;
+    left: 19.5vw;
+    z-index: 3000;
+    width: 35.788vw;
+    /* height: 14.382vw; */
+
+    background: #FFFFFF;
+    border: 0.069vw solid rgba(14, 14, 14, 0.1);
+    box-shadow: 0px 0.278vw 1.389vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.694vw;
+
+
+}
+
+.search-list ul {
+    padding-left: 1.87vw;
+
+}
+
+
+#search-list-p {
+    font-weight: 400;
+    font-size: 0.834vw;
+    line-height: 1.96vw;
+    color: rgba(102, 96, 96, 0.5);
+    padding: 0.939vw 1.804vw;
+
+
+}
+
+
+.search-engine p {
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 140%;
+    color: #0E0E0E;
+    margin-top: 1.041vw;
+
+}
+
+.input-container {
+    width: 35.726vw;
+    height: 3.170vw;
+    left: 42.545vw;
+    top: 18.193vw;
+
+    background: #FFFFFF;
+    border: 0.069vw solid rgba(81, 200, 248, 0.8);
+    border-radius: 6.897vw;
+
+}
+
+
+.input-container input {
+    color: rgba(14, 14, 14, 0.4);
+    font-weight: 400;
+    font-size: 0.972vw;
+    line-height: 1.4;
+    border: none;
+    width: 80%;
+    /* height: 100%; */
+    outline: none;
+
+
+}
+
+.search-icon-container {
+    margin-left: 1.84vw;
+    margin-right: 1.14vw;
+}
+
+.search-icon {
+    width: 1.389vw;
+    height: 1.389vw;
+}
+
+.search-engine article {
+    position: relative;
+    margin-top: 6.46vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.96vw;
+    color: rgba(14, 14, 14, 0.9);
+    margin-bottom: 2.346vw;
+}
+
+.recent-search-reports {
+    width: 74.93vw;
+    height: 3.75vw;
+    left: 23.08vw;
+    top: 31.67vw;
+    background: #F5F5F5;
+
+}
+
+.recent-search-reports-icon {
+    width: 1.8vw;
+    height: 1.8vw;
+    margin-left: 3.15vw;
+    margin-right: 0.65vw;
+}
+
+.table-title {
+    height: 3.75vw;
+
+}
+
+.table-heading {
+    font-weight: 600;
+    font-size: 0.97vw;
+
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    color: #0E0E0E;
+}
+
+
+
+
+/* profile image in each column of table */
+.profile {
+    width: 2.5vw;
+    height: 2.5vw;
+    position: relative;
+    left: 5.137vw;
+
+
+}
+
+.search-list-img {
+    list-style: none;
+    font-weight: 500;
+    font-size: 0.972vw;
+    line-height: 1.96vw;
+
+}
+
+.search-list-img img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.profile-heading {
+    position: relative;
+    left: 5vw;
+}
+
+.table-h6 {
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 140%;
+    color: rgba(14, 14, 14, 0.9);
+    text-transform: none;
+}
+
+#table-para {
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 140%;
+    color: rgba(14, 14, 14, 0.9);
+}
+
+.table-column {
+    margin: 1.5vw 0vw;
+}
+
+
+.middle-image-low {
+    width: 4.379vw;
+    height: 4.379vw;
+    position: relative;
+    left: 2vw;
+}
+
+.middle-image-high {
+    width: 4.379vw;
+    height: 4.379vw;
+    position: relative;
+    left: 2.5vw;
+}
+
+.middle-image-medium {
+    width: 4.379vw;
+    height: 4.379vw;
+    position: relative;
+    left: 3vw;
+}
+
+
+
+
+/* middle collumn button with low text */
+.middle-low-button {
+    width: 4.167vw;
+    height: 1.875vw;
+    border: 1px solid rgba(14, 14, 14, 0.12);
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 0.834vw;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    color: rgba(14, 14, 14, 0.9);
+    position: relative;
+    left: 3vw;
+}
+
+/* middle collumn button with High text */
+.middle-high-button {
+    width: 5.167vw;
+    height: 1.875vw;
+    border: 1px solid rgba(14, 14, 14, 0.12);
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 0.834vw;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    color: rgba(14, 14, 14, 0.9);
+    position: relative;
+    left: 3.5vw;
+}
+
+
+
+
+/* middle collumn button with medium text */
+.middle-medium-button {
+    width: 6.167vw;
+    height: 1.875vw;
+    border: 1px solid rgba(14, 14, 14, 0.12);
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 0.834vw;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    color: rgba(14, 14, 14, 0.9);
+    position: relative;
+    left: 4vw;
+}
+
+
+
+.inside-img-middle-button {
+    width: 0.427vw;
+    height: 0.427vw;
+    margin-right: 0.250vw;
+    border-radius: 50%;
+
+
+}
+
+.right-column-button {
+    width: 5.25vw;
+    height: 1.876vw;
+    left: 88.507vw;
+    top: 41.866vw;
+
+    background: #0749CB;
+    border-radius: 3.499vw;
+    font-weight: 500;
+    font-size: 0.903vw;
+    line-height: 1.391vw;
+    border: none;
+
+}
+.right-column-button:hover{
+    background: #00CDA8;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+/* right button of the 2ns column */
+.monitornig {
+    width: 6.7vw;
+    height: 1.87vw;
+
+    background: #00CDA8;
+    border-radius: 3.498vw;
+    font-weight: 500;
+    font-size: 0.9075vw;
+    line-height: 0.096vw;
+    border: none;
+
+}
+
+
+.text-area {
+    position: relative;
+    left: 6.753vw;
+
+}
+
+.show-more {
+    font-weight: 600;
+    font-size: 0.972vw;
+    line-height: 1.96vw;
+    color: #0749CB;
+
+}
+
+@media screen and (max-width:575px) {
+    #demo {
+        width: 70%;
+    }
+
+    nav {
+        width: 100vw;
+        height: 25.35vw;
+    }
+
+    nav p {
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 140%;
+        letter-spacing: -0.021vw;
+    }
+
+    .dropdown-toggle-nav {
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 7.67vw;
+        position: absolute;
+        left: 8.8vw;
+        top: -3.7vw;
+        border: none;
+    }
+
+    .email {
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        left: -2.9vw;
+        top: -3.1vw;
+    }
+
+    .notification-number {
+        background: #00B0FC;
+        /* transform: matrix(1, 0, 0, -1, 0, 0); */
+        font-weight: 500;
+        font-size: 2vw;
+        position: absolute;
+        left: 1.7vw;
+        top: -4.6vw;
+
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .dropdown-toggle-banner {
+        width: 27.62vw;
+        height: 8.5vw;
+        left: 84.26vw;
+        top: 7.99vw;
+        border: 0.07vw solid rgba(14, 14, 14, 0.2);
+        border-radius: 6.94vw;
+        font-weight: 400;
+        font-size: 2.7vw;
+        line-height: 1.46vw;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .offcanvas-btn {
+        position: absolute;
+        top: -6.2vw;
+        left: -28vw;
+        width: 21vw;
+        height: 13vw;
+        font-size: 4vw;
+
+    }
+
+    .logo-container img {
+        width: 44.14vw;
+        height: 15.37vw;
+        margin-top: 6.94vw;
+        margin-left: 6.78vw;
+    }
+
+    .logo-container {
+        height: 17.27vw;
+    }
+
+    .menu {
+        height: 100%;
+
+    }
+
+
+
+    .first-ul li h6 {
+        font-size: 3.11vw;
+    }
+
+    .dashboard img,
+    .analyze img,
+    .monitor img,
+    .software-request img,
+    .Contact img,
+    .fa img,
+    .faq img,
+    .my-profile img,
+    .notification img,
+    .users img {
+        width: 5.66vw;
+        height: 5.66vw;
+        margin-right: 3.04vw;
+    }
+
+    .dropdown-toggle-nav {
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 11.67vw;
+        position: absolute;
+        left: 10.8vw;
+        top: -5.7vw;
+        border: none;
+    }
+
+
+
+    .first-ul {
+        margin-top: 23vw;
+    }
+
+
+    .first-ul li,
+    .second-ul li,
+    .third-ul li {
+        list-style: none;
+        padding-left: 6.92vw;
+        height: 16.47vw;
+    }
+
+    .first-ul li a,
+    .second-ul li a,
+    .third-ul li a {
+        font-size: 3.5vw;
+    }
+
+    .ul-heading {
+        position: relative;
+        left: 8vw;
+        font-size: 4vw;
+    }
+
+    .email {
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        left: -2.9vw;
+        top: -3.4vw;
+    }
+
+
+
+
+
+    /* analyze page start */
+    .inner-body {
+        width: 95.8vw;
+    }
+
+    .search-list {
+        top: 42vw;
+        width: 56.788vw;
+    }
+
+    #search-list-p {
+        font-weight: 400;
+        font-size: 2.634vw;
+        line-height: 1.96vw;
+        color: rgba(102, 96, 96, 0.5);
+        padding: 1.939vw 1.804vw;
+        height: 7vw;
+    }
+
+    .search-list ul {
+        padding-left: 2.87vw;
+    }
+
+    .search-list-img img {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    .search-list-img {
+        list-style: none;
+        font-weight: 500;
+        font-size: 2.672vw;
+        line-height: 1.96vw;
+    }
+
+
+    .search-engine-logo {
+        width: 47.063vw;
+        height: 16.309vw;
+        margin-top: 9.083vw;
+    }
+
+    .search-engine p {
+        font-weight: 400;
+        font-size: 3.042vw;
+        line-height: 140%;
+        color: #0E0E0E;
+        margin-top: 5.041vw;
+    }
+
+    .input-container {
+        width: 62.726vw;
+        height: 9.17vw;
+        margin-top: 3vw;
+    }
+
+    .search-icon-container {
+        margin-left: 3.84vw;
+        margin-right: 1.14vw;
+    }
+
+    .search-icon {
+        width: 3.389vw;
+        height: 3.389vw;
+    }
+
+    .input-container input {
+        font-size: 2.80vw;
+    }
+
+
+
+    .search-engine article {
+        position: relative;
+        margin-top: 6.46vw;
+        font-weight: 400;
+        font-size: 2.97vw;
+        line-height: 3.96vw;
+        color: rgba(14, 14, 14, 0.9);
+        margin-bottom: 2.346vw;
+        padding-left: 4vw;
+
+    }
+
+    .recent-search-reports {
+        width: 95.93vw;
+        height: 14.75vw;
+    }
+
+
+
+    .search-engine p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .recent-search-reports-icon {
+        width: 4.8vw;
+        height: 4.8vw;
+    }
+
+    .inner-body {
+        height: 300vw;
+    }
+
+    .mobile-height {
+        height: 20vw;
+    }
+
+    .table-heading {
+        font-size: 3.3vw;
+    }
+
+    .profile {
+        width: 6.5vw;
+        height: 6.5vw;
+        left: 0px;
+    }
+
+    .table-h6 {
+        font-weight: 500;
+        font-size: 2.70vw;
+    }
+
+    #table-para {
+        font-weight: 300;
+        font-size: 2vw;
+    }
+
+    .text-area {
+        left: 0px;
+        text-align: center;
+    }
+
+
+    .middle-image-low,
+    .middle-image-high,
+    .middle-image-medium {
+        width: 8.379vw;
+        height: 8.379vw;
+        position: relative;
+        left: 0vw;
+        top: -2vw;
+    }
+
+
+
+
+    .middle-low-button,
+    .middle-high-button {
+        width: 17.167vw;
+        height: 5.875vw;
+        border: 1px solid rgba(14, 14, 14, 0.12);
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 2.834vw;
+        line-height: 140%;
+        color: rgba(14, 14, 14, 0.9);
+        position: relative;
+        left: 0vw;
+    }
+
+    .middle-medium-button {
+        width: 23.167vw;
+        height: 5.875vw;
+        border: 1px solid rgba(14, 14, 14, 0.12);
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 2.834vw;
+        line-height: 140%;
+        color: rgba(14, 14, 14, 0.9);
+        position: relative;
+        left: 0vw;
+    }
+
+
+    .right-column-button {
+        width: 16.25vw;
+        height: 5.3vw;
+        font-size: 2.2vw;
+    }
+
+    .monitornig {
+        width: 17.7vw;
+        height: 4.87vw;
+        font-size: 2.2vw;
+    }
+
+    .inside-img-middle-button {
+        width: 2vw;
+        height: 2vw;
+    }
+
+
+
+    .show-more {
+        font-weight: 600;
+        font-size: 2.972vw;
+    }
+
+
+
+
+
+
+
+
+}

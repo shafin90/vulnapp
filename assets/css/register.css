@@ -1,0 +1,357 @@
+/* universal font family========================================== */
+* {
+    font-family: 'Poppins', sans-serif;!important;
+}
+
+
+/* right-side image of this page============== */
+.login-image {
+    z-index: 1;
+    width: 33.75vw;
+    height: 34.63vw;
+    margin-top: 9.26vw;
+}
+
+
+/* Terms and condition section */
+.terms-and-condition-div {
+    height: 6.47vw;
+    width: 23.5vw;
+    margin-bottom: 0.9375vw;
+}
+
+
+/* form container section = Second column of the row => login-page-form-container */
+.login-form-container {
+    padding-left: 5vw;
+    padding-top: 2.4479166666666665vw;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.04);
+    height: 87.927083vw;
+    border-radius: 1.71875vw;
+}
+
+
+/* logo of the page***** */
+.logo {
+    width: 11.719vw;
+    height: 3.881vw;
+    margin-bottom: 8.179166666666667vw;
+}
+
+/* heading of the page */
+.form-heading {
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 1.1458333333333333vw;
+    margin-bottom: 3.0833333333333335vw;
+    color: #0E0E0E;
+}
+
+/* small para after heading in this page */
+.form-para {
+    font-size: 1.0375vw;
+    margin-bottom: 0.3vw;
+}
+
+
+/* text before input */
+.form-label {
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 176%;
+    color: #0E0E0E;
+}
+
+
+/* overall common measurement of input */
+.form-control {
+    width: 31.34vw;
+    height: 2.9166666666666665vw;
+    border: 1px solid #1DBFFF;
+    border-radius: 5.208333333333333vw;
+    font-size: 1vw;
+    padding: 1.25vw 1.2854166666666666vw;
+    position: relative;
+    top: -1vw;
+    margin-top: 1.625vw;
+}
+
+.email-div,
+.pass-div,
+.firstName-div,
+.lastName-div,
+.companyName-div,
+.companyDomain-div,
+.phoneNumber-div,
+.confirmPass-div,
+.authentication-div {
+    height: 5.6875vw;
+    margin-bottom: 0.6375vw;
+}
+
+
+/* Rehister button ================= */
+.login {
+    width: 31.34vw; 
+    height: 2.9166666666666665vw;
+    font-weight: 400;
+    font-size: 1vw;
+    background: #0749CB;
+    border-radius: 5.208333333333333vw;
+    text-decoration: none;
+    color: white;
+}
+.login:hover{
+    color: white;
+    background-color: #053492;
+}
+.login span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+
+/* eye icon inside of input feild============== */
+.eye {
+    position: absolute;
+    left: 29vw;
+    top: 47.6vw;
+    bottom: 2.35644444444566vw;
+    width: 1.0255208333333334vw;
+    height: 0.7291666666666666vw;
+    cursor: pointer;
+}
+.eye2{
+    position: absolute;
+    left: 29vw;
+    top: 53.9vw;
+    bottom: 2.35644444444566vw;
+    width: 1.0255208333333334vw;
+    height: 0.7291666666666666vw;
+    cursor: pointer;
+}
+
+/* this is a circular div. its position is behind the image and it make the image more colorfull */
+.abstract {
+    position: absolute;
+    left: 16.8125vw;
+    top: 24.177083vw;
+    width: 27.79vw;
+    height: 27.79vw;
+    background: #1DBFFF;
+    opacity: 0.8;
+    filter: blur(15.625vw);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.login-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.login-form {
+    height: 19.895833333333332vw;
+}
+
+
+.form-holder {
+    height: 62.895833333333332vw;
+    position: relative;
+    top: -3vw;
+}
+
+form {
+    height: 59.666666666666668vw;
+}
+
+/* remember_me checkbox */
+.remember_me label {
+    font-size: 0.929167vw;
+    line-height: 176%;
+}
+
+
+.remember_me{
+    position: relative;
+    top: 0.6vw;
+}
+
+.remember_me input {
+    width: 1.2vw;
+    height: 1.2vw;
+
+
+}
+
+.have_and_account{
+    position: relative;
+    top: 1.1vw;
+    font-size: 0.97vw;
+    line-height: 176%;
+}
+
+
+
+/* mobile responsiveness================================================================================================= */
+@media screen and (max-width:575px) {
+    .login-image {
+        width: 75.292188vw;
+        height: 77.967188vw;
+        margin-top: 10.677083333333334vw;
+    }
+
+    .abstract {
+        position: absolute;
+        left: 14.8125vw;
+        top: 43.177083vw;
+        width: 68.833333vw;
+        height: 20.833333333333332vw;
+        background: #1DBFFF;
+        opacity: 0.8;
+        filter: blur(15.625vw);
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .form-heading {
+        font-weight: 700;
+        font-size: 5.141667vw;
+        line-height: 7.145833vw;
+        margin-bottom: 6.083333vw;
+        color: #0E0E0E;
+    }
+
+    .logo {
+        position: relative;
+        top: -4vw;
+        width: 36.109896vw;
+        height: 12.01875vw;
+        margin-bottom: 4.179167vw;
+    }
+
+    .form-label {
+        font-weight: 500;
+        font-size: 3.729167vw;
+        line-height: 185%;
+        color: #0E0E0E;
+        /* margin-bottom: 0.625vw; */
+    }
+
+    .form-para{
+        font-size: 3.929167vw;
+        line-height: 185%;
+        margin-bottom: 0.1vw;
+
+
+    }
+
+    .email-div,
+    .pass-div,
+    .firstName-div,
+    .lastName-div,
+    .companyName-div,
+    .companyDomain-div,
+    .phoneNumber-div,
+    .confirmPass-div,
+    .authentication-div {
+        height: 20.6875vw;
+        margin-bottom: 0.9375vw;
+        /* overflow: hidden; */
+    }
+
+    .form-control {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        border: 1px solid #1DBFFF;
+        border-radius: 5.208333333333333vw;
+        font-size: 3.5vw;
+        padding: 1.25vw 3.885417vw;
+        position: relative;
+        top: -1vw;
+        margin-top: 1.625vw;
+        
+    }
+
+    .terms-and-condition-div {
+        height: 10.708333vw;
+        width: 78vw;
+    }
+
+    .forgot-password {
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 176%;
+        color: #1FB6FA;
+        /* margin-top: 0.625vw; */
+    }
+
+    .login {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        font-weight: 400;
+        font-size: 3.5vw;
+        background: #0749CB;
+        border-radius: 5.208333333333333vw;
+        text-decoration: none;
+        margin-top: 6vw;
+        color: white;
+    }
+
+
+    .login-form-container {
+        height: 286.927083vw;
+        border-radius: 1.71875vw;
+        padding-left: 8.5vw;
+        padding-top: 17.447917vw;
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    .eye {
+        position: absolute;
+        left: 72vw;
+        top: 163.5vw;
+
+        bottom: 2.35644444444566vw;
+        width: 3.025521vw;
+        height: 2.429167vw;
+        cursor: pointer;
+    }
+    .eye2{
+        position: absolute;
+        left: 72vw;
+        top:  185vw;
+        bottom: 2.35644444444566vw;
+        width: 3.025521vw;
+        height: 2.429167vw;
+        cursor: pointer;
+
+    }
+
+    .remember_me label {
+        font-size: 3vw;
+        line-height: 176%;
+    }
+
+    .remember_me input {
+        width: 3.2vw;
+        height: 3.2vw;
+    }
+
+
+    .have_and_account{
+        font-size: 3vw;
+        line-height: 176%;
+    }
+
+    .login span{
+        font-size: 3vw;
+        font-weight: 400;
+    }
+
+
+}

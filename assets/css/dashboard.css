@@ -1,0 +1,988 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* menubar  */
+.menu {
+    box-sizing: border-box;
+    width: 20.84vw;
+    height: 85.91vw;
+    background: #051024;
+}
+
+/* logo size width */
+.logo-container {
+    height: 8.27vw;
+    position: relative;
+}
+
+.logo-container img {
+    width: 10.14vw;
+    height: 3.37vw;
+    margin-left: 2.78vw;
+    margin-top: 1.94vw;
+    position: absolute;
+
+}
+
+/* firs ul */
+
+.first-ul li,
+.second-ul li,
+.third-ul li {
+    list-style: none;
+    padding-left: 2.92vw;
+    height: 3.47vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.3vw;
+
+
+}
+
+.first-ul li:first-child {
+    background: rgba(81, 200, 248, 0.09);
+    border-left: 0.104vw solid #1DBFFF;
+
+}
+
+
+/*sizing of  a of li  */
+.first-ul li a,
+.second-ul li a,
+.third-ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+
+}
+
+/* this is the h6 tag in the ul=>my settings */
+h6 {
+    font-weight: 500;
+    font-size: 1.11vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+
+}
+
+.ul-heading {
+    position: relative;
+    left: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+.second-ul,
+.third-ul {
+    margin-top: 0.8vw;
+}
+
+
+
+
+
+
+
+
+/* manubar icon sizing========================================================================= */
+.dashboard img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+.analyze img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+
+}
+
+.monitor img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.software-request img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.Contact img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.faq img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.my-profile img {
+    width: 1.67vw;
+    height: 1.67vw;
+
+    margin-right: 1.04vw;
+}
+
+/* .my-profile {
+    position: relative;
+    right: 0.8vw;
+} */
+
+.fa img {
+    width: 1.66vw;
+    height: 1.66vw;
+
+    margin-right: 1.04vw;
+}
+
+.fa {
+    font-family: 'Poppins', sans-serif;
+}
+
+.notification img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+.users img {
+    width: 1.66vw;
+    height: 1.66vw;
+    margin-right: 1.04vw;
+}
+
+/* menubar complete here========================================= */
+
+
+
+
+
+/* right side al stuffs activities from here================== */
+.right-side {
+    height: 85.91vw;
+
+
+}
+
+nav {
+    width: 78vw;
+    height: 5.35vw;
+    box-shadow: 0px 0.28vw 0.69vw rgba(0, 0, 0, 0.05);
+    padding: 0vw 2.22vw;
+
+}
+
+nav p {
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 140%;
+    letter-spacing: -0.021vw;
+}
+
+nav ul {
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.email {
+    width: 1.39vw;
+    height: 1.39vw;
+
+    position: absolute;
+    left: -7.2vw;
+    top: -0.3vw;
+}
+
+.notification-number {
+    background: #00B0FC;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    font-weight: 500;
+    font-size: 0.83vw;
+    position: absolute;
+    left: -6.3vw;
+    top: -1.1vw;
+    width: 1.25vw;
+    height: 1.25vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li.dropdown {
+    position: relative;
+
+}
+
+/* toggle button in nav */
+.dropdown-toggle-nav {
+    font-weight: 400;
+    font-size: 1.21vw;
+    line-height: 1.67vw;
+    position: absolute;
+    left: -3.2vw;
+    top: -0.7vw;
+    border: none;
+}
+
+
+/*body part of  right side */
+.body {
+    background-color: #F5F5F5;
+    padding-bottom: 1.4vw;
+
+}
+
+/* banner section==================== */
+.banner {
+    padding: 0vw 2.22vw;
+    padding-top: 2.64vw;
+    padding-bottom: 1.88vw;
+    width: 78vw;
+    /* padding: 0vw 2.22vw; */
+
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 2.22vw;
+    line-height: 140%;
+    letter-spacing: -0.07vw;
+    color: #0E0E0E;
+}
+
+.dropdown-toggle-banner {
+    width: 13.62vw;
+    height: 3.20vw;
+    left: 84.26vw;
+    top: 7.99vw;
+    border: 0.07vw solid rgba(14, 14, 14, 0.2);
+    border-radius: 6.94vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.46vw;
+    overflow: hidden;
+}
+
+
+
+/* report-monitoring */
+.report-monitoring {
+    width: 73.56vw;
+    height: 16.23vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.49vw 0.14vw rgba(0, 0, 0, 0.02);
+    border-radius: 1.04vw;
+    margin-left: 2.22vw;
+    margin-right: 2.22vw;
+    padding: 1.04vw;
+    margin-bottom: 2.78vw;
+
+}
+
+.report-monitoring-inside {
+    width: 34.01vw;
+    height: 14.18vw;
+    position: relative;
+
+    background: #D7F4FF;
+    border: 0.07vw solid #1DBFFF;
+    box-shadow: 0px 0px 2.08vw 0.35vw rgba(0, 0, 0, 0.06);
+    border-radius: 1.11vw;
+
+}
+
+.risk-reprts-img {
+    position: absolute;
+    left: 45.3%;
+    width: 3.19vw;
+    height: 3.19vw;
+    top: 2.2vw;
+
+}
+
+.risk-reports-h2 {
+    font-weight: 700;
+    font-size: 2.22vw;
+    line-height: 1.96vw;
+    letter-spacing: -0.07vw;
+    color: #0E0E0E;
+    position: absolute;
+    left: 45.8%;
+    top: 7.6vw;
+}
+
+.risk-reports-p {
+    position: absolute;
+    left: 40.5%;
+
+    top: 10.2vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+    color: #0E0E0E;
+}
+
+.monitoring-reports-p {
+    position: absolute;
+    left: 30.5%;
+    top: 10.2vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+    color: #0E0E0E;
+}
+
+
+
+
+
+/* Classified software application risk=================================== */
+.classified-software-application-risk {
+    width: 73.56vw;
+    height: 24.86vw;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.49vw 0.14vw rgba(0, 0, 0, 0.02);
+    border-radius: 1.04vw;
+    margin-left: 2.22vw;
+    margin-right: 2.22vw;
+    padding: 1.67vw 1.04vw;
+    margin-bottom: 2.78vw;
+}
+
+.classified-software-application-risk-heading {
+
+    height: 5.41vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.classified-software-application-risk-heading h6 {
+    font-weight: 600;
+    font-size: 1.39vw;
+    line-height: 1.96vw;
+    text-transform: capitalize;
+    color: #0E0E0E;
+    margin-right: 0.83vw;
+
+}
+
+.classified-software-application-risk-heading button {
+    width: 8.41vw;
+    height: 2.15vw;
+    left: 50.22vw;
+    top: 33.68vw;
+    background: rgba(14, 14, 14, 0.06);
+    border-radius: 0.28vw;
+    border: none;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.36vw;
+    text-transform: capitalize;
+
+
+
+}
+
+
+.high,
+.medium,
+.low {
+    width: 21.6vw;
+    height: 16.1vw;
+    left: 24.13vw;
+    top: 39.14vw;
+    border: 0.07vw solid rgba(14, 14, 14, 0.14);
+    border-radius: 1.11vw;
+    padding: 1.46vw 1.67vw;
+}
+
+.high h6,
+.medium h6,
+.low h6 {
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.88vw;
+
+    letter-spacing: -0.02em;
+    color: #0E0E0E;
+}
+
+.high .circle,
+.medium .circle,
+.low .circle {
+    width: 8.34vw;
+    height: 8.34vw;
+    position: relative;
+    left: 9vw;
+}
+
+.high h5,
+.medium h5,
+.low h5 {
+    font-weight: 600;
+    font-size: 1.53vw;
+    line-height: 2.30vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0E0E0E;
+}
+
+.trending-up {
+    width: 2.11vw;
+    height: 2.11vw;
+
+}
+
+
+
+
+
+.reported-vulnerabilities {
+    width: 73.56vw;
+    height: 24.82vw;
+    left: 23.08vw;
+    top: 59.67vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.48vw 0.14vw rgba(0, 0, 0, 0.02);
+    border-radius: 1.04vw;
+    margin-left: 2.22vw;
+    margin-right: 2.22vw;
+    padding: 1.67vw 1.04vw;
+
+}
+
+.large-img-container img {
+    width: 19.58vw;
+    height: 19.58vw;
+    position: relative;
+    top: -2vw;
+    right: 0.5vw;
+}
+
+
+
+.reported-vulnerabilities-risk-details {
+
+    width: 45vw;
+    height: 16.83vw;
+    position: relative;
+    left: 2vw;
+
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.risk-details {
+    width: 21vw;
+    height: 7.08vw;
+    left: 51.51vw;
+    top: 66.97vw;
+    border: 0.07vw solid rgba(14, 14, 14, 0.14);
+    border-radius: 1.11vw;
+    padding: 0.696vw 1.62vw;
+
+}
+
+
+.image-one,
+.image-three {
+    width: 5.10vw;
+    height: 5.10vw;
+
+}
+
+.image-two,
+.image-four {
+    width: 4.10vw;
+    height: 4.10vw;
+
+}
+
+
+.risk-details h6 {
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 1.45vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #0E0E0E;
+    position: relative;
+    bottom: 0.6vw;
+
+}
+
+.risk-details h5 {
+
+    font-weight: 600;
+    font-size: 1.53vw;
+    line-height: 2.43vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0E0E0E;
+    position: relative;
+    top: 1vw;
+
+}
+
+.trend {
+    width: 2.29vw;
+    height: 2.01vw;
+    position: relative;
+    top: 0.7vw;
+    left: 0.2vw;
+
+}
+
+.contain-risk-details {
+    position: relative;
+    top: -1.5vw;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+/* to make tooltip msg left aligned-============ */
+.tooltip .tooltip-inner {
+    text-align: left;
+}
+
+
+@media screen and (max-width:575px) {
+    #demo {
+        width: 70%;
+    }
+
+    nav {
+        width: 100vw;
+        height: 25.35vw;
+    }
+
+    nav p {
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 140%;
+        letter-spacing: -0.021vw;
+    }
+
+    .dropdown-toggle-nav {
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 7.67vw;
+        position: absolute;
+        left: 8.8vw;
+        top: -3.7vw;
+        border: none;
+    }
+
+    .email {
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        left: -2.9vw;
+        top: -3.1vw;
+    }
+
+    .notification-number {
+        background: #00B0FC;
+        /* transform: matrix(1, 0, 0, -1, 0, 0); */
+        font-weight: 500;
+        font-size: 2vw;
+        position: absolute;
+        left: 1.7vw;
+        top: -4.6vw;
+    
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner {
+        width: 100vw;
+        height: 43vw;
+        padding-top: 10.64vw;
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        font-size: 8vw;
+    }
+
+    .dropdown-toggle-banner {
+        width: 27.62vw;
+        height: 8.5vw;
+        left: 84.26vw;
+        top: 7.99vw;
+        border: 0.07vw solid rgba(14, 14, 14, 0.2);
+        border-radius: 6.94vw;
+        font-weight: 400;
+        font-size: 2.7vw;
+        line-height: 1.46vw;
+        overflow: hidden;
+    }
+
+    .report-monitoring {
+        width: 95.56vw;
+        height: 125.23vw;
+        padding: 5.04vw;
+    }
+
+
+    .report-monitoring-inside {
+        width: 89.01vw;
+        height: 55.18vw;
+    }
+
+    .risk-reports-p {
+        position: absolute;
+        left: 38.5%;
+        top: 45.2vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 1.67vw;
+        color: #0E0E0E;
+    }
+
+    .monitoring-reports-p {
+        position: absolute;
+        left: 27.5%;
+        top: 45.2vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 1.67vw;
+        color: #0E0E0E;
+    }
+
+
+    .risk-reports-h2 {
+        font-weight: 700;
+        font-size: 10.22vw;
+        line-height: 1.96vw;
+        letter-spacing: -0.07vw;
+        color: #0E0E0E;
+        position: absolute;
+        left: 45%;
+        top: 32.6vw;
+    }
+
+    .risk-reprts-img {
+        position: absolute;
+        left: 42.5%;
+        width: 17.19vw;
+        height: 17.19vw;
+        top: 5.2vw;
+    }
+
+    .classified-software-application-risk {
+        width: 95.56vw;
+        height: 96.86vw;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 0.49vw 0.14vw rgba(0, 0, 0, 0.02);
+        border-radius: 1.04vw;
+        margin-left: 2.22vw;
+        margin-right: 2.22vw;
+        padding: 5.67vw 4.04vw;
+        margin-bottom: 2.78vw;
+        height: 173.86vw;
+    }
+
+    .classified-software-application-risk-heading h6 {
+        font-weight: 600;
+        font-size: 8vw;
+        margin-right: 2.83vw;
+        line-height: 11vw;
+    }
+
+    .classified-software-application-risk-heading {
+        height: 47.41vw;
+    }
+
+    .classified-software-application-risk-heading button {
+        width: 28.41vw;
+        height: 8.15vw;
+        font-size: 2.9vw;
+    }
+
+    .high,
+    .medium,
+    .low {
+        width: 87.6vw;
+        height: 33.1vw;
+        padding: 3.46vw 3.67vw;
+    }
+
+
+    .high .circle,
+    .medium .circle,
+    .low .circle {
+        width: 20.34vw;
+        height: 20.34vw;
+        position: relative;
+        left: 57vw;
+        top: 0vw;
+    }
+
+    .high h6,
+    .medium h6,
+    .low h6 {
+        font-weight: 500;
+        font-size: 4.25vw;
+        line-height: 4.88vw;
+    }
+
+    .high h5,
+    .medium h5,
+    .low h5 {
+        font-weight: 600;
+        font-size: 5.53vw;
+        position: relative;
+        top: -4vw;
+        /* line-height: 4.88vw; */
+    }
+
+    .trending-up {
+        width: 5.11vw;
+        height: 5.11vw;
+        position: relative;
+        top: -4.5vw;
+        left: 1vw;
+    }
+
+
+
+    .reported-vulnerabilities {
+        width: 95.56vw;
+        height: 314.82vw;
+        left: 23.08vw;
+        top: 59.67vw;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 0.48vw 0.14vw rgba(0, 0, 0, 0.02);
+        border-radius: 1.04vw;
+        margin-left: 2.22vw;
+        margin-right: 2.22vw;
+        padding: 4.67vw 4.04vw;
+    }
+
+    .large-img-container img {
+        width: 93.58vw;
+        height: 93.58vw;
+        position: relative;
+        top: -2vw;
+        right: 19.5vw;
+        position: relative;
+        left: 1vw;
+        top: -10vw;
+    }
+
+    .reported-vulnerabilities-risk-details {
+
+        width: 45vw;
+        height: 16.83vw;
+
+
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .reported-vulnerabilities-risk-details {
+        width: 78vw;
+        height: 125.83vw;
+    }
+
+    .risk-details {
+        width: 86vw;
+        height: 33.08vw;
+        padding: 2.696vw 3.62vw;
+
+    }
+
+    .risk-details h6 {
+        font-weight: 500;
+        font-size: 4vw;
+        bottom: 7.6vw;
+
+    }
+
+
+    .risk-details h5 {
+        font-weight: 600;
+        font-size: 6vw;
+        top: 11vw;
+    }
+
+    .trend {
+        width: 6.29vw;
+        height: 6.01vw;
+        position: relative;
+        top: 9.6vw;
+        left: 1.6vw;
+    }
+
+
+
+    .image-one,
+    .image-three {
+        width: 30.1vw;
+        height: 30.1vw;
+
+    }
+
+    .image-two,
+    .image-four {
+        width: 25.1vw;
+        height: 25.1vw;
+        position: relative;
+        right: 2vw;
+
+    }
+
+    .offcanvas-btn {
+        position: absolute;
+        top: -6.2vw;
+        left: -28vw;
+        width: 21vw;
+        height: 13vw;
+        font-size: 4vw;
+
+    }
+
+    .logo-container img {
+        width: 44.14vw;
+        height: 15.37vw;
+        margin-top: 6.94vw;
+        margin-left: 6.78vw;
+    }
+
+    .logo-container {
+        height: 17.27vw;
+    }
+
+    .menu {
+        height: 100%;
+
+    }
+
+
+
+    .first-ul li h6 {
+        font-size: 3.11vw;
+    }
+
+    .dashboard img,
+    .analyze img,
+    .monitor img,
+    .software-request img,
+    .Contact img,
+    .fa img,
+    .faq img,
+    .my-profile img,
+    .notification img,
+    .users img {
+        width: 5.66vw;
+        height: 5.66vw;
+        margin-right: 3.04vw;
+    }
+
+    .dropdown-toggle-nav {
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 11.67vw;
+        position: absolute;
+        left: 10.8vw;
+        top: -5.7vw;
+        border: none;
+    }
+
+
+
+    .first-ul {
+        margin-top: 23vw;
+    }
+
+
+    .first-ul li,
+    .second-ul li,
+    .third-ul li {
+        list-style: none;
+        padding-left: 6.92vw;
+        height: 16.47vw;
+    }
+
+    .first-ul li a,
+    .second-ul li a,
+    .third-ul li a {
+        font-size: 3.5vw;
+    }
+
+    .ul-heading {
+        position: relative;
+        left: 8vw;
+        font-size: 4vw;
+    }
+
+    .email {
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        left: -2.9vw;
+        top: -3.4vw;
+    }
+
+
+
+
+
+
+}

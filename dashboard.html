@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+
+    <!--font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
+    <!-- poppins= google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- customised css -->
+    <link rel="stylesheet" href="./assets/css/dashboard.css">
+</head>
+
+<body>
+    <!-- main section   =================================================================================================================-->
+    <main class="d-flex justify-content-between align-items-center">
+
+        <!-- left side menubar======================================== -->
+        <section class="menu" id="demo">
+
+            <!-- matrix means container. just to give it a name, nothing else -->
+            <div class="matrix" id="matrix">
+
+                <!-- logo -->
+                <div class="logo-container w-100  ">
+                    <img src="./assets/Images/Footer_Logo.png" alt="">
+                </div>
+
+
+
+                <!-- first ul -->
+                <ul class="first-ul ps-0">
+
+                    <!-- Dashboard -->
+                    <li>
+                        <a class="text-decoration-none text-white dashboard d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/Dashboard.png" alt="">
+                            Dashboard
+                        </a>
+                    </li>
+
+
+                    <!-- Analyze -->
+                    <li>
+                        <a class="text-decoration-none analyze d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/analyze.svg" alt="">
+                            Analyze
+                        </a>
+                    </li>
+
+
+                    <!-- Monitor -->
+                    <li>
+                        <a class="text-decoration-none monitor d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/monitor.png" alt="">
+                            Monitor
+                        </a>
+                    </li>
+
+
+                    <!-- Software Request -->
+                    <li>
+                        <a class="text-decoration-none software-request d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/software_request.png" alt="">
+                            Software Request
+                        </a>
+                    </li>
+
+                    <!-- Contact Support -->
+                    <li>
+                        <a class="text-decoration-none Contact d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/contact_support.png" alt="">
+                            Contact Support
+                        </a>
+                    </li>
+
+                    <!-- FAQ -->
+                    <li>
+                        <a class="text-decoration-none faq d-flex justify-content-between align-items-center" href="">
+                            <img src="./assets/Images/faq.png" alt="">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+
+
+                <!-- heading = my settings ==========================-->
+                <h6 class="mb-0 ul-heading">MY SETTINGS</h6>
+
+                <!-- second ul -->
+                <ul class=" ps-0 second-ul">
+
+                    <!-- My Profile -->
+                    <li>
+                        <a class="text-decoration-none my-profile d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/my_profile.png" alt="">
+                            My Profile
+                        </a>
+                    </li>
+
+
+                    <!-- My Profile -->
+                    <li>
+                        <a class="text-decoration-none fa d-flex justify-content-between align-items-center"
+                            href=""><img src="./assets/Images/2fa.png" alt="">
+                            2FA
+                        </a>
+                    </li>
+
+
+                    <!-- My Profile -->
+                    <li>
+                        <a class="text-decoration-none notification d-flex justify-content-between align-items-center"
+                            href="">
+                            <img src="./assets/Images/notification.png" alt="">
+                            Notification Settings
+                        </a>
+                    </li>
+                </ul>
+
+
+                <!-- heading = admin settings -->
+                <h6 class="mb-0 mb-0 ul-heading">Admin Settings</h6>
+
+
+                <!-- third ul -->
+                <ul class="third-ul ps-0">
+
+                    <!-- Users -->
+                    <li>
+                        <a class="text-decoration-none users d-flex justify-content-between align-items-center" href="">
+                            <img src="./assets/Images/users.png" alt="">
+                            Users
+                        </a>
+                    </li>
+                </ul>
+
+                </ul>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- right side all stuffs =======================================================================================================-->
+        <section class="right-side">
+
+
+            <!-- heading = at the right part of teh screen , top most portion -->
+            <nav class="d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center">
+                
+                <!-- left side text of the heading -->
+                <p class="mb-0"><span class="text-muted">Pages /</span> Dashboard</p>
+
+
+                <!-- Button to open the offcanvas sidebar -->
+                <button class="btn btn-primary d-none" type="button" data-bs-toggle="offcanvas" id="btn"
+                    data-bs-target="#demo">
+                    Open Offcanvas Sidebar
+                </button>
+                
+                
+                
+                <ul class="mb-0 ps-0">
+                    <li><button class="offcanvas-btn  btn d-block d-md-none p-0" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button></li>
+
+                    <li><img class="email" src="./assets/Images/envelop-notification.png" alt=""><span
+                            class="notification-number text-white">2</span></li>
+                    <li class="dropdown">
+                        <button class="btn border-none p-0 dropdown-toggle-nav dropdown-toggle" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mike
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">
+
+                                    <p class="text-muted">mike@yopmail.com</p>
+                                    <p>Log out</p>
+                                
+                                </a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+
+
+
+
+            <!-- body================================ -->
+            <section class="body">
+
+
+
+
+
+                <!-- banner -->
+                <section
+                    class="banner  mb-0 d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-start align-items-md-center">
+                    <h1 class="d-inline-block mb-3 mb-md-0">
+                        Dashboard Metrics
+                    </h1>
+
+
+                    <!-- dropdown button===== -->
+                    <div class="dropdown">
+                        <button
+                            class="btn d-flex justify-content-between align-items-center py-0 dropdown-toggle-banner dropdown-toggle"
+                            type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Last 7 Days
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                            <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        </ul>
+                    </div>
+
+                </section>
+
+
+
+
+                <!-- report-monitoring section========================= -->
+                <section
+                    class="report-monitoring  d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <div class="report-monitoring-inside">
+                        <img class="risk-reprts-img" src="./assets/Images/risk_reports.png" alt="">
+                        <h2 class="risk-reports-h2">06</h2>
+                        <p class="risk-reports-p">Risk Reports</p>
+
+                    </div>
+
+
+
+                    <div class="report-monitoring-inside">
+                        <img class="risk-reprts-img" src="./assets/Images/application_monitoring.png" alt="">
+                        <h2 class="risk-reports-h2">06</h2>
+                        <p class="monitoring-reports-p">Application Monitoring</p>
+
+                    </div>
+
+
+                </section>
+
+
+
+
+
+                <!-- Classified software application risk section======================== -->
+                <section class="classified-software-application-risk">
+                    <!-- heading of this section -->
+                    <div
+                        class="classified-software-application-risk-heading d-flex flex-column flex-md-row justify-content-start align-items-start ">
+                        <h6 class="d-inline-block mb-4 mb-md-0">
+                            Classified software application risk
+                        </h6>
+                        <button>
+                            In Last 7 Days
+                        </button>
+                    </div>
+
+
+
+                    <!-- other stuff of this section===== -->
+                    <section class="risk d-flex flex-column flex-md-row justify-content-between align-items-center">
+                        <div class="high mb-4 mb-md-0">
+                            <h6 class="mb-0">High Risk</h6>
+                            <img class="circle d-block" src="./assets/Images/high_risk.png" alt="">
+                            <h5 class="d-inline-block mb-0">0</h5>
+                            <img class="trending-up" src="./assets/Images/trending-up-high-risk.png" alt="">
+
+
+                        </div>
+
+
+
+                        <div class="medium mb-4 mb-md-0">
+                            <h6 class="mb-0">Medium Risk</h6>
+                            <img class="circle d-block" src="./assets/Images/medium-risk.png" alt="">
+                            <h5 class="d-inline-block mb-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="
+                            
+                            
+                                        1.Evernote 10.1.1.01 
+                                        2.Comodo Cleaning Essentials 10.2.1.3
+                                        3.Comodo Cleaning Essentials 10.2.1.3
+                                        4.Comodo Cleaning Essentials 10.2.1.3
+                                        5.Comodo Cleaning Essentials 10.2.1.3
+                                        6.Comodo Cleaning Essentials 10.2.1.3
+                                        7.Comodo Cleaning Essentials 10.2.1.3
+                                        8.Comodo Cleaning Essentials 10.2.1.3
+                                        9.Comodo Cleaning Essentials 10.2.1.3
+                                        10.Comodo Cleaning Essentials 10.2.1.3
+                                        11.Comodo Cleaning Essentials 10.2.1.3
+                                        12.Comodo Cleaning Essentials 10.2.1.3
+                                        13.Comodo Cleaning Essentials 10.2.1.3
+                                        14.Comodo Cleaning Essentials 10.2.1.3
+                                        15.Comodo Cleaning Essentials 10.2.1.3
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            ">02</h5>
+                            <img class="trending-up" src="./assets/Images/trending-up -medium-risk.png" alt="">
+
+                        </div>
+
+
+
+                        <div class="low mb-4 mb-md-0">
+                            <h6 class="mb-0">Low Risk</h6>
+                            <img class="circle d-block" src="./assets/Images/low-risk.png" alt="">
+                            <h5 class="d-inline-block mb-0">0</h5>
+                            <img class="trending-up" src="./assets/Images/trending-up- low-risk.png" alt="">
+
+                        </div>
+
+
+                    </section>
+                </section>
+
+
+
+
+                <!-- Reported Vulnerabilities section -->
+                <section class="reported-vulnerabilities">
+                    <!-- heading of this section -->
+                    <div
+                        class="classified-software-application-risk-heading d-flex flex-column flex-md-row justify-content-start align-items-start ">
+                        <h6 class="d-inline-block mb-4 mb-md-0">
+                            Reported Vulnerabilities
+                        </h6>
+                        <button>
+                            In Last 7 Days
+                        </button>
+                    </div>
+
+
+
+
+                    <!-- other stuffs of this section====================== -->
+                    <div class="row d-flex flex-column flex-md-row justify-content-end align-items-center">
+                        <div
+                            class="col-12 col-md-4  d-flex justify-content-end align-items-start large-img-container px-0">
+                            <img src="./assets/Images/Reported-Vulnerabilities.png" alt="">
+
+                        </div>
+
+
+
+                        <div
+                            class="col-12 col-md-8 px-0 d-flex justify-content-start justify-content-md-end align-items-center contain-risk-details px-3">
+
+                            <div class="reported-vulnerabilities-risk-details">
+                                <div
+                                    class="risk-details mb-4 mb-md-0 d-flex justify-content-between align-items-center">
+
+                                    <div>
+                                        <h6 class="mb-0">Critical</h6>
+                                        <h5 class="d-inline-block mb-0">0</h5>
+                                        <img class="trend" src="./assets/Images/trending-up-critical.png" alt="">
+                                    </div>
+                                    <div class="image">
+                                        <img class="image-one" src="./assets/Images/critical.png" alt="">
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                                <div
+                                    class="risk-details mb-4 mb-md-0 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-0">High</h6>
+                                        <h5 class="d-inline-block mb-0">0</h5>
+                                        <img class="trend" src="./assets/Images/trending-up-high.png" alt="">
+                                    </div>
+                                    <div class="image">
+                                        <img class="image-two" src="./assets/Images/high.png" alt="">
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <div
+                                    class="risk-details mb-4 mb-md-0 d-flex justify-content-between align-items-center">
+
+                                    <div>
+                                        <h6 class="mb-0">Medium</h6>
+                                        <h5 class="d-inline-block mb-0">0</h5>
+                                        <img class="trend" src="./assets/Images/trending-up-medium.png" alt="">
+                                    </div>
+                                    <div class="image">
+                                        <img class="image-three" id="exept" src="./assets/Images/medum.png" alt="">
+                                    </div>
+
+                                </div>
+
+
+                                <div class="risk-details d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-0">Low</h6>
+                                        <h5 class="d-inline-block mb-0" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="
+                                        1.Evernote 10.1.1.01 
+                                        2.Comodo Cleaning Essentials 10.2.1.3
+                                        3.Comodo Cleaning Essentials 10.2.1.3
+                                        4.Comodo Cleaning Essentials 10.2.1.3
+                                        5.Comodo Cleaning Essentials 10.2.1.3
+                                        6.Comodo Cleaning Essentials 10.2.1.3
+                                        7.Comodo Cleaning Essentials 10.2.1.3
+                                        8.Comodo Cleaning Essentials 10.2.1.3
+                                        9.Comodo Cleaning Essentials 10.2.1.3
+                                        10.Comodo Cleaning Essentials 10.2.1.3
+                                        11.Comodo Cleaning Essentials 10.2.1.3
+                                        12.Comodo Cleaning Essentials 10.2.1.3
+                                        13.Comodo Cleaning Essentials 10.2.1.3
+                                        14.Comodo Cleaning Essentials 10.2.1.3
+                                        15.Comodo Cleaning Essentials 10.2.1.3
+                                        
+                                        
+                                        
+                                        
+                                        ">02</h5>
+                                        <img class="trend" src="./assets/Images/trenging-up-low.png" alt="">
+                                    </div>
+                                    <div class="image">
+                                        <img class="image-four" src="./assets/Images/low.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./assets/js/dashboard.js"></script>
+
+
+
+
+</body>
+
+</html>

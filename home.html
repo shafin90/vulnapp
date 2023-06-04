@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulnapp</title>
+
+
+    <!-- google font======================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+
+    <!-- raw css -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+
+<body>
+
+    <!-- header ================================================================================================== -->
+    <header id="header">
+        <!--nav -->
+        <nav class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container-fluid px-0">
+                <!-- logo -->
+                <a class="navbar-brand py-0" href="#"><img src="./assets/Images/Logo.png" alt=""></a>
+                
+                <!-- navbar-toggler-button for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- two buttons of nav -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-lg-flex ms-auto">
+                        <a type="button" class="btn login p-0 d-flex justify-content-center align-items-center"
+                            type="submit">Login</a>
+                        <a type="button" onclick="jump()"
+                            class="btn request p-0 d-flex justify-content-center align-items-center"
+                            type="submit">Request a Demo</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <!-- banner -->
+        <section class="banner container-fluid">
+            <div class="row">
+                <!-- right side of banner -->
+                <div class="col-12 px-0  col-md-6 order-md-2">
+                    <!-- banner-image -->
+                    <img class="banner-image" src="./assets/Images/banner_image.png" alt="">
+                </div>
+
+
+
+
+                <!-- left side of banner -->
+                <div class="col-12 px-0 col-md-6 order-md--1">
+                    <!-- banner-heading -->
+                    <h1>
+                        Evaluate your Endpoint Software <span class="span">instantly</span>
+                    </h1>
+
+                    <!-- banner first para -->
+                    <article class="banner_first_article">
+                        Obsolete software applications provide an open door for hackers and cybercriminals to exploit
+                        security flaws and gaps in your environment.
+                    </article>
+
+                    <!-- banner second para -->
+                    <article class="banner_second_article">
+                        Cover all your attack vector with VulnApp, created for security Operations to avoid potentially
+                        unwanted programs
+                    </article>
+
+
+
+
+                    <!-- banner inside image container= inside banner there is a box containing three images -->
+                    <div class="inside_banner">
+
+                        <!-- heading of that box -->
+                        <h2 class="text-center">Example of Software Applications</h2>
+
+                        <!-- main box-content where three images are  -->
+                        <div
+                            class="inside_banner_logo_container d-flex flex-column  flex-md-row justify-content-between align-items-center">
+                            <!-- first image -->
+                            <div>
+                                <img class="acrobat" src="./assets/Images/Adobe_Acrobate.png" alt="">
+                                <p>Adobe Acrobat</p>
+                            </div>
+
+                            <!-- second image -->
+                            <div>
+                                <img class="zip" src="./assets/Images/7_zip.png" alt="">
+                                <p>7 zip</p>
+                            </div>
+
+                            <!-- third image -->
+                            <div>
+                                <img class="audacity" src="./assets/Images/Audacity.png" alt="">
+                                <p>Audacity</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </header>
+
+
+
+
+    <!-- main==================================================================================================== -->
+    <main>
+        <!-- benifit-form = basically there are form at the right side and some benifit list at the left side -->
+        <section class="benifit-form container-fluid" id="form">
+            <div class="row">
+                <!-- left-side = benifit list -->
+                <div class="col-12 col-md-5 ">
+                    <div class="product-benifit">
+                        <div>
+                            <h1>
+                                Product Benefits
+                            </h1>
+                            <ul>
+                                <li><img src="./assets/Images/Tick.png" alt="">Known exploitable threats</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Known vulnerabilities</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Software Functionality</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Dedicated Researcher</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Virus analysis (IA)</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Risk Analysis</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Recommendation</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Vulnerability monitoring</li>
+                                <li><img src="./assets/Images/Tick.png" alt="">Threat monitoring</li>
+                            </ul>
+                            <div class="w-100 d-flex justify-content-center align-items-center">
+                                <button>Contact Us For Pricing</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- right-side = form-container, this section also devided into two part. left part contain some text and right part contain actual form -->
+                <div class="col-12 col-md-7 ">
+
+                    <div class="row form-container">
+                        <!-- the text part of this container -->
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-between align-items-center px-0">
+                            <article>
+                                <h2 class="px-0 form-container-h2">Want to know more on how we can help you streamline
+                                    your process?</h2>
+                                <p class="px-0">Tell us about your security initiative and one of our expert will
+                                    contact you.</p>
+                            </article>
+                            <div>
+                                <p class="mb-0 form-container-second-article">We will handle your contact details in
+                                    line with our <span class="span">Privacy Policy.</span></p>
+                            </div>
+                        </div>
+
+                        <!-- main form here -->
+                        <div class="col-12 col-md-6 px-0">
+                            <form class="form h-100" id="main-form">
+                                <!-- form heading -->
+                                <h2 class="request_a_live_demo">Request a Live <span class="span">Demo</span></h2>
+
+                                <!-- first name  -->
+                                <div class="input-div">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control ps-3" id="firstName">
+                                </div>
+
+                                <!-- last name -->
+                                <div class="input-div">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control ps-3" id="lastName">
+                                </div>
+
+                                <!-- email address -->
+                                <div class="input-div">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control ps-3" id="email">
+                                </div>
+
+                                <!-- phone number -->
+                                <div class="input-div">
+                                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control ps-3" id="phoneNumber">
+                                </div>
+
+                                <!-- company name -->
+                                <div class="input-div">
+                                    <label for="companyAddress" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control ps-3" id="companyAddress">
+                                </div>
+
+                                <!-- country -->
+                                <div class="input-div">
+                                    <label for="country" class="form-label">Country</label>
+                                    <input type="text" class="form-control ps-3" id="country">
+                                </div>
+
+                                <!-- submit button -->
+                                <button type="submit" onclick="scrollToTop(event)"
+                                    class="btn btn-primary hover_black">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+        <!-- monitor-heading = This is actually a heading section after form section -->
+        <section class="monitor">
+            <h1 class="text-center">
+                Monitor and Assess your Software Applications
+            </h1>
+            <article class="text-center">
+                Aid you with better decision-making and gain visibility of your software applications.
+            </article>
+        </section>
+
+
+        <!-- flow chart = in this section, there is a flow-chart at the right side and some text at the left side -->
+        <section class="flow-chart">
+            <div class="row">
+                <!-- text -->
+                <div class="col-12 col-md-5">
+                    <article>
+                        A thorough risk evaluation takes a Security Analyst 1 to 3 hours of investigation on a software
+                        application on average. VulnApp resolves that issue by assisting the Security Analyst in
+                        reaching a conclusion.
+                    </article>
+
+                </div>
+
+                <!-- flow chart -->
+                <div class="col-12 col-md-7">
+                    <img class=" flow_chart_img" src="./assets/Images/Flow_Chart.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- three boxes section = there are three boxes here========== -->
+        <section class="three-boxes">
+
+            <div class="three-boxes-container d-flex justify-content-between align-items-center">
+
+                <!-- first box -->
+                <div class="Box1 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/Images/Box_1.png" alt="">
+                    <h3>Reduce your man hours</h3>
+                    <article>
+                        To boost efficiency with your security personnel, cut down on time spent on desktop requests or
+                        reviews, and quickly access your risk reports.
+                    </article>
+                </div>
+
+
+                <!-- second box -->
+                <div class="Box2  d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/Images/Box_2.png" alt="">
+                    <h3>Streamline your operations</h3>
+                    <article>
+                        VulnApp eliminates deviations from your processes to enhance improved outcomes.
+                    </article>
+                </div>
+
+
+                <!-- third box -->
+                <div class="Box3 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/Images/Box_3.png" alt="">
+                    <h3>Catalogue & Monitor</h3>
+                    <article>
+                        Keep track of and get notified of any emerging vulnerabilities or exploitable threats related to
+                        your software applications.
+                    </article>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!-- software application = in this section there are some text with heading at the left and an image at the right -->
+        <section class="software_application">
+            <div class="row monitor_row">
+                <!-- text -->
+                <div class="col-12 col-md-6 left">
+                    <!-- heading -->
+                    <h1>
+                        Monitor all your software applications
+                    </h1>
+                    <ul>
+                        <li>Continual risk assessment of your open-source software applications </li>
+                        <li>Know the software applications' potential risks to your organization </li>
+                        <li>Determine the need for an alternative based on the threat's dynamic environment </li>
+                        <li>Be alerted about any new threats, vulnerabilities, and changes in the risk level so you can
+                            react quickly </li>
+                        <li>Track your software applications in one location</li>
+
+                    </ul>
+                </div>
+
+                <!-- image of right side -->
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid" src="./assets/Images/Monitor_all_your_software_application.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- use case = in this section, there are some text with heading at the left and an image at the right== -->
+        <section class="use-case">
+
+            <div class="row">
+                <!-- text -->
+                <div class="col-12 col-md-7 px-0 text">
+                    <!-- heading -->
+                    <h1>
+                        Use Case
+                    </h1>
+
+                    <!-- text-first-part -->
+                    <article>
+                        The client discovered that their IT Security Operation resources were using too many daily
+                        cycles to
+                        assess their desktop software applications for approvals.
+                    </article>
+
+                    <!-- text-second-part -->
+                    <article>
+                        The organization required to simplify the process of managing, monitoring, and assessing the
+                        risks of
+                        software application installations instantly while maintaining the performance of their Security
+                        Operation resources.
+                        They needed a solution, so they partnered with VulnApp to help with their software application
+                        security
+                        analysis and tracking. As a result, their Security Operation performance has improved
+                        substantially,
+                        and they can now focus on what is most important without interfering with their IT Security
+                        Staff's daily cycles.
+                    </article>
+                </div>
+
+
+                <!-- image of right side -->
+                <div class="col-12 col-md-5 px-0">
+                    <img class="img-fluid" src="./assets/Images/use_case.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- before footer = this section is at before of footer having a heading, some text and a button -->
+        <section class="before-footer d-flex flex-column justify-content-between align-items-center">
+            <!-- heading -->
+            <h1 class="text-center text-white">VulnApp helps you improve Security Operations performance, and focus on
+                what is important</h1>
+
+            <!-- text -->
+            <p class="text-white">See how VulnApp can help you</p>
+
+            <!-- button -->
+            <form action="">
+                <a onclick="jump()"
+                    class="btn hover_black text-white text-decoration-none d-flex justify-content-center align-items-center">Get
+                    Started</a>
+            </form>
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <!-- footer ====================================================================================================-->
+    <footer class="pb-5 pb-md-0">
+
+        <div class="row one">
+            <div class="col-12 col-md-6 footer-logo text-center text-md-start">
+                <!-- footer logo -->
+                <img src="./assets/Images/Footer_Logo.png" alt="">
+            </div>
+            <div
+                class="col-12 col-md-6 footer-icon d-flex justify-content-center justify-content-md-end align-items-center">
+                <!-- there are social media icons -->
+                <ul class="px-0">
+                    <li><a href=""><img class="linked_in" src="./assets/Images/footer_icon_linked_in.png" alt=""></a></li>
+                    <li><a href=""><img class="instagram" src="./assets/Images/footer_icon_instagram.png" alt=""></a></li>
+                    <li><a href=""><img class="twitter" src="./assets/Images/footer_icon_twitter.png" alt=""></a></li>
+                    <li><a href=""><img class="facebook" src="./assets/Images/footer_icon_facebook.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row two">
+            <div class="col-12 px-0 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
+                <ul class="d-flex justify-content-between align-items-center my-0 px-0 ">
+                    <li><a href="">Privacy Policies</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">|</a></li>
+                    <li><a href="">Contact: Info@vulnapp.com</a></li>
+                </ul>
+            </div>
+            <div class="col-12 px-0 col-md-6">
+                <p class="my-0 px-0 text-center text-md-end text-white py-3 py-md-0">
+                
+                    © 2023 VulnApp. All rights reserved
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- script js file -->
+    <script src="./assets/js/home.js"></script>
+</body>
+
+</html>

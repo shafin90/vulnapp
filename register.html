@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+  <!-- bootstrap cdn link============ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+
+  <!-- google font poppins-================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+
+  <!--customized css link ======================================== -->
+  <link rel="stylesheet" href="./assets/css/register.css">
+
+  <title>Registration</title>
+</head>
+
+<body>
+  <!-- form-container contain the whole page include left section-form, right section-image================================================= -->
+  <div class="container-fluid form-container">
+
+    <!-- this row has to column. one column contain the form and another column containe the image -->
+    <div class="row">
+
+      <!--First column of this row = right side image div -->
+      <div class="col-12 col-md-6 login-image-container order-md-2 d-flex justify-content-center  ">
+
+        <!-- Image -->
+        <img class="login-image" src="./assets/Images/right_side_image.png" alt="">
+
+        <!-- this is a circular div. its position is behind the image and it make the image more colorfull -->
+        <div class="abstract"></div>
+
+      </div>
+
+
+      <!--Second column of this row = login-page-form-container-->
+      <div class="col-12 col-md-6 login-form-container order-md-1 bg-warnin">
+
+        <!-- logo -->
+        <img class="logo" src="./assets/Images/Logo.png" alt="">
+
+
+
+        <!-- login-form class contains entire form=========== -->
+        <div class="container px-0 login-form">
+
+          <!-- form-holder class container the form with heading, para, everything  -->
+          <div class=" px-0 form-holder">
+
+            <!-- para of this page -->
+            <p class="form-para mb-1">New to VulnApp?</p>
+
+            <!-- heading of this page -->
+            <h2 class="form-heading">Let’s Register your Account!</h2>
+
+
+            <!--actual form starts here ========-->
+            <form>
+
+              <!-- First Name -->
+              <div class="firstName-div">
+                <label for="fname" class="form-label d-block">First Name <span class="text-danger">*</span></label>
+                <input type="text"
+                  class="form-control py-0 d-flex justify-content-center align-items-center  form-control-mail"
+                  id="name" placeholder="First Name" required>
+              </div>
+
+              <!-- Last Name -->
+              <div class="lastName-div">
+                <label for="lname" class="form-label d-block">Last Name <span class="text-danger">*</span></label>
+                <input type="text"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="lname" placeholder="Last Name" required>
+              </div>
+
+              <!-- company Name -->
+              <div class="companyName-div">
+                <label for="companyName" class="form-label d-block">Company Name <span
+                    class="text-danger">*</span></label>
+                <input type="text"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="companyName" placeholder="Name of your company" required>
+              </div>
+
+              <!-- company Domain -->
+              <div class="companyDomain-div">
+                <label for="companyDomain" class="form-label d-block">Company Domain <span
+                    class="text-danger">*</span></label>
+                <input type="text"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="companyDomain" placeholder="Domain of your company" required>
+              </div>
+
+              <!-- email adress -->
+              <div class="email-div">
+                <label for="email" class="form-label d-block">Email <span class="text-danger">*</span></label>
+                <input type="email"
+                  class="form-control py-0 d-flex justify-content-center align-items-center  form-control-mail"
+                  id="email" placeholder="Enter your email" required>
+              </div>
+
+              <!-- phone number -->
+              <div class="phoneNumber-div">
+                <label for="phoneNumber" class="form-label d-block">Phone Number <span
+                    class="text-danger">*</span></label>
+                <input type="text"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="phoneNumber" placeholder="Type your phone number" required>
+              </div>
+
+              <!-- password -->
+              <div class="pass-div">
+                <label for="password" class="form-label d-block">Password <span class="text-danger">*</span></label>
+                <input type="password"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="password" placeholder="Enter your password" required>
+                <!-- eye icon---- -->
+                <img class="eye" src="./assets/Images/eye.png" alt="">
+              </div>
+
+
+
+
+              <!--confirm password -->
+              <div class="confirmPass-div">
+                <label for="password" class="form-label d-block">Confirm Password <span
+                    class="text-danger">*</span></label>
+                <input type="password"
+                  class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass "
+                  id="password" placeholder="Enter your password again" required>
+                <!-- eye icon----- -->
+                <img class="eye2" src="./assets/Images/eye.png" alt="">
+              </div>
+              
+              
+              
+              <!-- authentication======= -->
+              <div class="authentication-div">
+                <label for="authentication" class="form-label d-block">Enable Google 2FA <span
+                    class="text-danger">*</span></label>
+                <select class="form-control py-0 d-flex justify-content-center align-items-center form-control-pass"
+                  id="authentication" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              
+              
+              
+              <!-- Terms and condition-->
+              <div class="terms-and-condition-div d-flex flex-column justify-content-start align-items-start  mb-0">
+                <span class="d-flex justify-content-center align-items-center remember_me">
+                  <input type="checkbox" id="terms_and_condition" class="me-1 mt-0 form-check-input" name="terms_and_condition">
+                  <label class="ms-1" for="remember">I agree with the Terms and Conditions.</label>
+
+                </span>
+                
+
+                <!-- if user have account already, he/she can go to the login page -->
+                <span class="have_and_account">Already have an account? <a href="">Login</a></span>
+              
+              </div>
+
+
+
+
+              <!-- submit button -->
+              <a type="submit" id="login" class="login d-block">
+                <span>
+                  Register
+                </span>
+              </a>
+
+
+
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--bootstrap javascript cdn================================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+  <!--customized script file -->
+  <script src="./assets/css/register.css"></script>
+</body>
+
+</html>

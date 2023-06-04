@@ -1,0 +1,535 @@
+/* universal font family=============================================== */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* right-side large image of this page*/
+.login-image {
+    z-index: 1;
+    width: 33.75vw;
+    height: 34.63vw;
+    margin-top: 9.26vw;
+}
+
+
+
+/* form-container contain the whole page include left section-form, right section-image */
+.login-form-container {
+    padding-left: 5vw;
+    padding-top: 2.4479166666666665vw;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.04);
+    height: 72.927083vw;
+    border-radius: 1.71875vw;
+}
+
+/* logo of this page */
+.logo {
+    width: 11.719vw;
+    height: 3.881vw;
+    margin-bottom: 8.179166666666667vw;
+}
+
+/* Heading of this page */
+.form-heading {
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 1.1458333333333333vw;
+    margin-bottom: 3.62vw;
+    color: #0E0E0E;
+}
+
+
+.form-para {
+    font-size: 1.0375vw;
+    margin-bottom: 0.3vw;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 1.029167vw;
+    line-height: 176%;
+    color: #0E0E0E;
+}
+
+/* overall common measurement of input */
+.form-control {
+    width: 31.28vw;
+    height: 2.9166666666666665vw;
+
+    border: 1px solid   #1DBFFF;
+    
+
+    border-radius: 5.208333333333333vw;
+    font-size: 0.9375vw;
+    padding: 1.25vw 1.8854166666666666vw;
+    position: relative;
+    top: -1vw;
+    margin-top: 1.625vw;
+    outline: none;
+
+}
+#continue{
+    background-color: #0749CB;
+    width: 31.28vw;
+    height: 2.9166666666666665vw;
+    border: 1px solid   #1DBFFF;
+    border-radius: 5.208333333333333vw;
+    font-size: 0.9375vw;
+    padding: 1.25vw 1.8854166666666666vw;
+    position: relative;
+    top: -1vw;
+    margin-top: 1.625vw;
+    outline: none;
+
+}
+#cancel{
+    width: 31.28vw;
+    height: 2.9166666666666665vw;
+
+    border: 1px solid #0749CB;
+    
+
+    border-radius: 5.208333333333333vw;
+    font-size: 0.9375vw;
+    padding: 1.25vw 1.8854166666666666vw;
+    position: relative;
+    top: -1vw;
+    margin-top: 0.725vw;
+
+}
+
+
+
+
+
+.btn-outline-primary {
+    --bs-btn-color: #0749CB;
+    --bs-btn-border-color: #0749CB;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0749CB;
+    --bs-btn-hover-border-color: #0749CB;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0749CB;
+    --bs-btn-active-border-color: #0749CB;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0749CB;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0749CB;
+    --bs-gradient: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.email-div,
+.pass-div,
+.firstName-div,
+.lastName-div,
+.companyName-div,
+.companyDomain-div,
+.phoneNumber-div,
+.confirmPass-div,
+.authentication-div {
+    height: 5.6875vw;
+    margin-bottom: 1.25vw;
+}
+
+
+/* continue button=============== */
+.login {
+    width: 31.28vw;
+    height: 3.88vw;
+    font-weight: 500;
+    font-size: 1.25vw;
+    background: #0749CB;
+    border-radius: 5.208333333333333vw;
+    text-decoration: none;
+}
+
+.login span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.abstract {
+    position: absolute;
+    left: 16.8125vw;
+    top: 24.177083vw;
+    width: 27.79vw;
+    height: 27.79vw;
+    background: #1DBFFF;
+    opacity: 0.8;
+    filter: blur(15.625vw);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.login-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.login-form {
+    height: 19.895833333333332vw;
+}
+
+.form-holder {
+    height: 62.895833333333332vw;
+    position: relative;
+    top: -5vw;
+}
+
+.form-holder {
+    height: 59.666666666666668vw;
+}
+
+
+
+
+
+
+
+
+/* 2FA======================================= */
+.step {
+    width: 26.68vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.4;
+}
+
+.step-number {
+    width: 6.25vw;
+    height: 2.23vw;
+    background: rgba(220, 245, 255, 0.72);
+    border-radius: 6.94vw;
+    font-weight: 500;
+    font-size: 1.04vw;
+    line-height: 1.96vw;
+    color: #0749CB;
+    margin-right: 1.67vw;
+
+}
+
+
+.step-2 {
+    margin-bottom: 0.83vw;
+}
+
+
+.qr-code-container img {
+    width: 9.86vw;
+    height: 9.86vw;
+    position: relative;
+    left: 8vw;
+
+}
+
+.qr-code-digits h6 {
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 140%;
+    /* or 1.25vw */
+
+    /* Brand Black */
+
+    color: #0E0E0E;
+    position: relative;
+    left: 8vw;
+
+}
+
+.qr-code-digits {
+    margin-bottom: 1.46vw;
+}
+
+
+.alert-img {
+    width: 1.11vw;
+    height: 1.11vw;
+    margin-right: 0.56vw;
+}
+
+.alert-msg {
+    width: 32.73vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 140%;
+    /* or 1.39vw */
+    margin-bottom: 2.22vw;
+}
+
+.step-third {
+    width: 31.92vw;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 1.4;
+
+}
+
+.step-3 {
+    margin-bottom: 1.67vw;
+
+}
+
+form {
+    width: 31.32vw;
+    height: 3.88vw;
+
+    position: relative;
+    left: 8vw;
+}
+
+form label {
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 4.4vw;
+    
+    color: #0E0E0E;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:575px) {
+    .login-image {
+        /* margin-top: 10.677083333333334vw; */
+        width: 75.292188vw;
+        height: 77.967188vw;
+        margin-top: 10.677083333333334vw;
+    }
+
+    .abstract {
+        position: absolute;
+        left: 14.8125vw;
+        top: 43.177083vw;
+        width: 68.833333vw;
+        height: 20.833333333333332vw;
+        background: #1DBFFF;
+        opacity: 0.8;
+        filter: blur(15.625vw);
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .form-heading {
+        font-weight: 700;
+        font-size: 5.141667vw;
+        line-height: 7.145833vw;
+        margin-bottom: 6.083333vw;
+        color: #0E0E0E;
+    }
+
+    .logo {
+        position: relative;
+        top: -4vw;
+        width: 36.109896vw;
+        height: 12.01875vw;
+        margin-bottom: 4.179167vw;
+    }
+
+    .form-label {
+        font-weight: 500;
+        font-size: 3.729167vw;
+        line-height: 185%;
+        color: #0E0E0E;
+        /* margin-bottom: 0.625vw; */
+    }
+
+    .email-div,
+    .pass-div,
+    .firstName-div,
+    .lastName-div,
+    .companyName-div,
+    .companyDomain-div,
+    .phoneNumber-div,
+    .confirmPass-div,
+    .authentication-div {
+        height: 20.6875vw;
+        margin-bottom: 0.9375vw;
+        /* overflow: hidden; */
+    }
+
+    .form-control {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        border: 1px solid #1DBFFF;
+        border-radius: 5.208333333333333vw;
+        font-size: 3.5vw;
+        padding: 1.25vw 3.885417vw;
+        position: relative;
+        top: -1vw;
+        margin-top: 1.625vw;
+    }
+
+ 
+
+
+
+
+
+
+    .forgot-pass-div {
+        height: 10.708333vw;
+        width: 78vw;
+    }
+
+    .forgot-password {
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 176%;
+        color: #1FB6FA;
+        /* margin-top: 0.625vw; */
+    }
+
+    #continue {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        font-weight: 500;
+        font-size: 3.5vw;
+        background: #0749CB;
+        border-radius: 5.208333333333333vw;
+        text-decoration: none;
+        margin-top: 6vw;
+    }
+
+    .login-form-container {
+        height: 286.927083vw;
+        border-radius: 1.71875vw;
+    }
+
+    .login-form-container {
+        padding-left: 8.5vw;
+        padding-top: 17.447917vw;
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.04);
+    }
+
+
+    .step{
+        font-size: 2.929167vw;
+        width: 67.68vw;
+
+    }
+    .step-number {
+        width: 16.25vw;
+        height: 6.23vw;
+        background: rgba(220, 245, 255, 0.72);
+        border-radius: 6.94vw;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 1.96vw;
+        color: #0749CB;
+        margin-right: 2.67vw;
+    }
+    .qr-code-container img {
+        width: 40.86vw;
+        height: 40.86vw;
+        position: relative;
+        left: 23vw;
+    }
+    .qr-code-digits {
+        margin-bottom: 5.46vw;
+    }
+
+    .qr-code-digits h6 {
+        font-weight: 600;
+        font-size: 3.9vw;
+        line-height: 140%;
+        color: #0E0E0E;
+        position: relative;
+        left: 22vw;
+      
+    }
+    .alert-img {
+        width: 5.11vw;
+        height: 5.11vw;
+        margin-right: 2.56vw;
+    }
+    .alert-msg {
+        width: 85.73vw;
+        font-weight: 400;
+        font-size: 2.9vw;
+        line-height: 140%;
+        margin-bottom: 5.22vw;
+    }
+    .step-third {
+        width: 85.92vw;
+        font-weight: 400;
+        font-size: 2.91vw;
+        line-height: 1.4;
+    }
+    form {
+        width: 85.32vw;
+        height: 50.88vw;
+        position: relative;
+        left: 1vw;
+    }
+    .form-label {
+        font-weight: 500;
+        font-size: 3.729167vw;
+        line-height: 185%;
+        color: #0E0E0E;
+        /* margin-bottom: 0.625vw; */
+    }
+    .step-3 {
+        margin-bottom: 10.67vw;
+    }
+    .form-control {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        border: 1px solid #1DBFFF;
+        border-radius: 5.208333333333333vw;
+        font-size: 3.5vw;
+        padding: 1.25vw 3.885417vw;
+        position: relative;
+        top: -1vw;
+        margin-top: 1.625vw;
+    }
+    #continue {
+        width: 78.489583vw;
+        height: 9.916667vw;
+        font-weight: 500;
+        font-size: 3.5vw;
+        background: #0749CB;
+        border-radius: 5.208333333333333vw;
+        text-decoration: none;
+        margin-top: 3vw;
+        outline: none;
+    }
+    #cancel {
+        width: 78.28vw;
+        height: 9.916667vw;
+        border: 1px solid #0749CB;
+        border-radius: 5.208333333333333vw;
+        font-size: 3.5vw;
+        padding: 1.25vw 1.8854166666666666vw;
+        position: relative;
+        top: -1vw;
+        margin-top: 2.725vw;
+    }
+    .login-form-container {
+        height: 207.927083vw;
+        border-radius: 1.71875vw;
+    }
+}
