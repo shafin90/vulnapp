@@ -76,15 +76,7 @@
     margin-top: 1.625vw;
 }
 
-.email-div,
-.pass-div,
-.firstName-div,
-.lastName-div,
-.companyName-div,
-.companyDomain-div,
-.phoneNumber-div,
-.confirmPass-div,
-.authentication-div {
+.input-div {
     height: 5.6875vw;
     margin-bottom: 0.6375vw;
 }
@@ -250,15 +242,7 @@ form {
 
     }
 
-    .email-div,
-    .pass-div,
-    .firstName-div,
-    .lastName-div,
-    .companyName-div,
-    .companyDomain-div,
-    .phoneNumber-div,
-    .confirmPass-div,
-    .authentication-div {
+    .input-div {
         height: 20.6875vw;
         margin-bottom: 0.9375vw;
         /* overflow: hidden; */

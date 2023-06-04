@@ -58,8 +58,7 @@
 
 }
 
-.email-div,
-.pass-div {
+.input-div {
     height: 5.6875vw;
     margin-bottom: 0.9375vw;
 }
@@ -210,8 +209,7 @@ form {
         /* margin-bottom: 0.625vw; */
     }
 
-    .email-div,
-    .pass-div {
+    .input-div {
         height: 20.6875vw;
         margin-bottom: 0.9375vw;
         /* overflow: hidden; */

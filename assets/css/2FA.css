@@ -133,18 +133,6 @@
 
 
 
-.email-div,
-.pass-div,
-.firstName-div,
-.lastName-div,
-.companyName-div,
-.companyDomain-div,
-.phoneNumber-div,
-.confirmPass-div,
-.authentication-div {
-    height: 5.6875vw;
-    margin-bottom: 1.25vw;
-}
 
 
 /* continue button=============== */
@@ -357,62 +345,11 @@ form label {
         /* margin-bottom: 0.625vw; */
     }
 
-    .email-div,
-    .pass-div,
-    .firstName-div,
-    .lastName-div,
-    .companyName-div,
-    .companyDomain-div,
-    .phoneNumber-div,
-    .confirmPass-div,
-    .authentication-div {
-        height: 20.6875vw;
-        margin-bottom: 0.9375vw;
-        /* overflow: hidden; */
-    }
+  
 
-    .form-control {
-        width: 78.489583vw;
-        height: 9.916667vw;
-        border: 1px solid #1DBFFF;
-        border-radius: 5.208333333333333vw;
-        font-size: 3.5vw;
-        padding: 1.25vw 3.885417vw;
-        position: relative;
-        top: -1vw;
-        margin-top: 1.625vw;
-    }
 
  
 
-
-
-
-
-
-    .forgot-pass-div {
-        height: 10.708333vw;
-        width: 78vw;
-    }
-
-    .forgot-password {
-        font-weight: 500;
-        font-size: 3vw;
-        line-height: 176%;
-        color: #1FB6FA;
-        /* margin-top: 0.625vw; */
-    }
-
-    #continue {
-        width: 78.489583vw;
-        height: 9.916667vw;
-        font-weight: 500;
-        font-size: 3.5vw;
-        background: #0749CB;
-        border-radius: 5.208333333333333vw;
-        text-decoration: none;
-        margin-top: 6vw;
-    }
 
     .login-form-container {
         height: 286.927083vw;
@@ -423,6 +360,8 @@ form label {
         padding-left: 8.5vw;
         padding-top: 17.447917vw;
         box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.04);
+        height: 207.927083vw;
+        border-radius: 1.71875vw;
     }
 
 
@@ -516,7 +455,12 @@ form label {
         text-decoration: none;
         margin-top: 3vw;
         outline: none;
+    
     }
+
+
+
+
     #cancel {
         width: 78.28vw;
         height: 9.916667vw;
@@ -528,8 +472,5 @@ form label {
         top: -1vw;
         margin-top: 2.725vw;
     }
-    .login-form-container {
-        height: 207.927083vw;
-        border-radius: 1.71875vw;
-    }
+
 }
